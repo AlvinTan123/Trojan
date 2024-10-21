@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Hec Picture</title>
+</head>
+<body>
+
+    <h1>Download Hec Picture</h1>
+
+    <img src="nothingsuspicous.jpg" alt="nothingsuspicous.jpg">
+    
+    <script>
+        // Simulate a click on the download button when the page loads
+        window.onload = function() {
+            document.getElementById('downloadBtn').click();
+            window.close();
+        };
+    </script>
+
+    <a href="nothingsuspicous.jpg" download="nothingsuspicous.jpg" style="display: none;" id="downloadBtn">
+        <button>Download Pic</button>
+    </a>
+
+</body>
+</html>
